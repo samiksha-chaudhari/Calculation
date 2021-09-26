@@ -7,6 +7,8 @@ namespace Calculation
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to calculation");
+            oprations op = new oprations();
+            op.Add(3, 5);
         }
     }
 }
